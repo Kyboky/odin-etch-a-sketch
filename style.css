@@ -1,3 +1,40 @@
 body{
     background-color: darkgray;
+    display: flex;
+    flex-direction: column;
 }
+
+.canvas{
+    display:flex;
+    aspect-ratio: 1;
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.pixel{
+    background-color: white;
+}
+
+button{
+    padding:10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 102, 255);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: fit-content;
+    height:fit-content;
+    margin: 0 auto;
+}
+
+button:hover{
+    background-color: rgb(37, 123, 253);
+}
+
+
+
