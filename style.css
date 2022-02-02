@@ -19,6 +19,12 @@ body{
     background-color: white;
 }
 
+.controls{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px;
+}
+
 button{
     padding:10px 20px;
     border: none;
@@ -35,6 +41,28 @@ button{
 button:hover{
     background-color: rgb(37, 123, 253);
 }
+
+fieldset{
+    border: black solid 2px;
+}
+
+fieldset legend{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+fieldset button{
+    margin: 10px auto;
+}
+
+.red-button{
+    background-color: red;
+}
+
+.red-button:hover{
+    background-color: rgb(251, 61, 61);
+}
+
 
 
 

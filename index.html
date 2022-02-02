@@ -6,7 +6,15 @@
     <title>Etch A Sketch</title>
 </head>
 <body>
-    <button onclick="refreshCanvas()">Refresh Canvas</button>
+    <div class="controls">
+        <button onclick="refreshCanvas()">Refresh Canvas</button>
+        <fieldset>
+            <legend>Drawing style</legend>
+            <button id="black-white" value="1">Black-White</button>
+            <button id="rainbow" value="2">Rainbow</button>
+        </fieldset>
+        
+    </div>
     <div class="canvas"></div>
     <script src="etch_a_sketch.js"></script>
 </body>
